@@ -1,0 +1,25 @@
+{
+    "thresholds": {
+        "cpu": 80,
+        "memory": 80,
+        "disk": 80,
+        "latency": 1
+    },
+    "tcp": {
+        "host": "127.0.0.1",
+        "port": 8000
+    },
+    "http": {
+        "url": "http://127.0.0.1:8000/health"
+    },
+    "retry": {
+        "attempts": 3,
+        "delay": 1,
+        "timeout": 3
+    },
+    "monitor": {
+        "interval": 10
+    }
+}
+
+
